@@ -3,6 +3,10 @@
 [natdk.com](https://natdk.com) is Natalie Diva's personal website.
 [![landing-page](images/landing-page.png)](https://natdk.com)
 
+### Design
+
+https://www.figma.com/file/9iaVaoLrM2vKa9Gu5SNZBv/natdk.com?node-id=1%3A2
+
 ### Features
 
 - Home: the page where you can briefly read about 'Who Natalie Diva is' and see her latest updates
