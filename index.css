@@ -1,0 +1,301 @@
+body {
+  font-family: "League Spartan", "Arial", sans-serif;
+}
+
+footer {
+  position: absolute;
+  padding-top: 20px;
+  padding-left: 10px;
+  max-width: 100%;
+  height: 64px;
+  margin-top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: #3c8694;
+  color: white;
+}
+
+.h1-reg {
+  font-style: normal;
+  font-weight: 350;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 0.04em;
+}
+
+.h2-reg {
+  font-style: normal;
+  font-weight: 350;
+  font-size: 25px;
+  line-height: 36px;
+  letter-spacing: 0.04em;
+}
+
+.h5-reg {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 1440px;
+  padding: 15px;
+  background-color: white;
+  z-index: 10;
+}
+
+.nav-logo {
+  padding-left: 47px;
+}
+
+.nav-menu {
+  padding-left: 850px;
+  justify-content: space-between;
+}
+
+.nav-menu a {
+  color: black;
+  margin-left: 50px;
+  text-transform: uppercase;
+}
+
+.menu-active {
+  color: black;
+  text-decoration: underline;
+}
+
+.menu-unactive {
+  color: black;
+  text-decoration: none;
+}
+
+/** Hero Section **/
+
+.profile1 {
+  display: inline-block;
+  position: absolute;
+  width: 509px;
+  height: 480px;
+  left: 130px;
+  top: 192px;
+}
+
+.greet {
+  position: absolute;
+  width: 450px;
+  height: 50px;
+  left: 627px;
+  top: 340px;
+  /* Headline 2 Reg */
+  font-style: normal;
+  font-weight: 350;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  background-color: white;
+}
+
+.name {
+  position: absolute;
+  width: 450px;
+  height: 40px;
+  left: 622px;
+  top: 380px;
+
+  font-style: normal;
+  font-weight: 350;
+  font-size: 48px;
+  line-height: 36px;
+  letter-spacing: 0.04em;
+  background-color: white;
+}
+
+.intro {
+  position: absolute;
+  width: 300px;
+  height: 30px;
+  left: 656px;
+  top: 430px;
+  /* Headline 5 Reg */
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+}
+
+.quotes-r {
+  display: inline-block;
+  position: absolute;
+  width: 19px;
+  height: 278px;
+  left: 1368px;
+  top: 262px;
+}
+
+.quotes-l {
+  display: inline-block;
+  position: absolute;
+  width: 19px;
+  height: 278px;
+  left: 1344px;
+  top: 262px;
+}
+
+.quotes-l,
+.quotes-r {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+}
+
+.scroll-down {
+  padding-top: 710px;
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #9f9f9f;
+}
+
+.down-arrow {
+  margin-top: -60px;
+  padding-left: 698px;
+}
+
+/** About Me **/
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ddc0c0;
+  margin-top: 90px;
+  max-width: 100%;
+  left: 0px;
+  right: 0px;
+  height: 560px;
+}
+
+.title-s2 {
+  display: flex;
+  flex-direction: row;
+  width: 860px;
+  justify-content: space-between;
+}
+
+.s-aboutme {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 60px;
+}
+
+.aboutme {
+  width: 500px;
+  padding-top: 90px;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 23px;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+}
+
+.aboutme-img {
+  padding-left: 100px;
+}
+
+/** Personal Skills **/
+.section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 420px;
+  margin-top: 100px;
+}
+
+.title-s3 {
+  display: flex;
+  justify-content: center;
+}
+
+.skill {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 1000px;
+}
+
+.s-line-1 {
+  margin-left: -60px;
+}
+
+.s-icons-1 {
+  display: flex;
+  width: 260px;
+  justify-content: space-between;
+}
+
+.s-line-2 {
+  margin-right: -50px;
+}
+
+.s-icons-2 {
+  display: flex;
+  width: 156px;
+  justify-content: space-between;
+}
+
+.s-line-3 {
+  margin-left: -50px;
+}
+
+.s-icons-3 {
+  display: flex;
+  width: 260px;
+  justify-content: space-between;
+}
+
+.s-line-4 {
+  margin-right: -50px;
+}
+.s-icons-4 {
+  display: flex;
+  width: 156px;
+  justify-content: space-between;
+}
+
+/** Connect **/
+.title-s4 {
+  display: flex;
+  justify-content: center;
+}
+
+.section4 {
+  display: flex;
+  flex-direction: column;
+  position: static;
+  max-width: 100%;
+  height: 300px;
+  margin-top: 100px;
+  background-color: #ececea;
+  text-align: center;
+}
+
+.contact-icons {
+  flex-direction: row;
+}
