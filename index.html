@@ -2,181 +2,270 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Natalie Diva Krisantya</title>
+    <title>Demo CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
   </head>
 
   <body>
     <!-- Navigation -->
-    <nav>
-      <img src="assets/logo/logo-ndk.svg" alt="NDK Logo" />
-      <a href="/">Home</a>
-      <a href="/about">About</a>
-      <a href="/project">Project</a>
-      <a href="/contact">Contact</a>
+    <nav class="navbar">
+      <div class="nav-logo">
+        <img src="assets/logo-ndk.svg" alt="NDK Logo" />
+      </div>
+
+      <div class="nav-menu">
+        <a href="/" class="menu-active">Home</a>
+        <a href="/about" class="menu-unactive">About</a>
+        <a href="/project" class="menu-unactive">Project</a>
+        <a href="/contact" class="menu-unactive">Contact</a>
+      </div>
     </nav>
 
     <!-- Main Content -->
     <main>
       <!-- Hero Section -->
       <section>
-        <img src="/assets/pict/natalie-diva.jpg" alt="My Picture" />
+        <div class="profile1">
+          <img src="/assets/natalie-diva.jpg" alt="My Picture" />
+        </div>
 
-        <p>
-          <!-- these spans will have different sizes and positions -->
-          <span>Hi, my name is</span>
-          <span>Natalie Diva ^^</span>
-          <span>
+        <p class="welcome">
+          <span class="greet" class="headline2-reg"> Hi, my name is </span>
+          <span class="name"> Natalie Diva ^ ^</span>
+          <span class="intro">
             an Informatics student, aspiring UI/UX Designer, chorister, singer,
             and secretary.
           </span>
         </p>
-
         <h5>
           <!-- vertical rl, upright -->
-          <span>所以我们要向前走不回头</span>
-          <span>直到抵达心中目标 - 新的开始</span>
+          <span class="quotes-r">所以我们要向前走不回头</span>
+          <span class="quotes-l">直到抵达心中目标 | 新的开始</span>
         </h5>
-
         <div>
-          <h5>SCROLL DOWN</h5>
-          <img src="assets/icon/arrow-down2.svg" alt="arrow down" />
+          <h5 class="scroll-down">SCROLL</h5>
+          <img
+            class="down-arrow"
+            src="assets/icon/arrow-down2.svg"
+            alt="arrow down"
+          />
         </div>
       </section>
 
       <!-- About Me -->
-      <section>
-        <h1>ABOUT ME</h1>
-        <p>
-          Nice to meet you~! I am Natalie Diva, an Informatics student at Telkom
-          University. I’m an aspiring UI/UX Designer and am currently exploring
-          informatics field. I’m active as a chorister, psalm singer, and psalm
-          singers division secretary at my Church. I’m also a member of Saint
-          Angela Choir and Telkom University Choir.
-        </p>
-        <img
-          src="assets/illustration/undraw-fall-thyk.png"
-          alt="Hello"
-          width="530"
-          height="400"
-        />
+      <section class="section2">
+        <div class="title-s2">
+          <img src="assets/line.svg" alt="line" />
+          <h1 class="h1-reg">ABOUT ME</h1>
+          <img src="assets/line.svg" alt="line" />
+        </div>
+
+        <div class="s-aboutme">
+          <p class="aboutme">
+            Nice to meet you~! I am Natalie Diva, an Informatics student at
+            Telkom University. I’m an aspiring UI/UX Designer and am currently
+            exploring informatics field. I’m active as a chorister, psalm
+            singer, and psalm singers division secretary at my Church. I’m also
+            a member of Saint Angela Choir and Telkom University Choir.
+          </p>
+          <img
+            class="aboutme-img"
+            src="assets/illustration/undraw-fall-thyk.png"
+            alt="Hello"
+            width="530"
+            height="400"
+          />
+        </div>
       </section>
 
       <!-- Personal Skills -->
-      <section>
-        <h1>PERSONAL SKILLS</h1>
+      <section class="section3">
+        <div class="title-s3">
+          <h1 class="h1-reg">PERSONAL SKILLS</h1>
+        </div>
 
-        <h3>Microsoft Office</h3>
-        <img
-          src="assets/icon/word.svg"
-          alt="Microsoft Word"
-          width="52"
-          height="52"
-        />
-        <img
-          src="assets/icon/powerpoint.svg"
-          alt="Microsoft PowerPoint"
-          width="52"
-          height="52"
-        />
-        <img
-          src="assets/icon/excel.svg"
-          alt="Microsoft Excel"
-          width="52"
-          height="52"
-        />
+        <section class="animate__animated animate__slideInRight">
+          <div class="skill">
+            <div class="s-title-1">
+              <h1 class="h2-reg">Microsoft Office</h1>
+            </div>
 
-        <h3>Programming Languages</h3>
-        <img src="assets/icon/python.svg" alt="Python" width="52" height="52" />
-        <img src="assets/icon/golang.svg" alt="Golang" width="52" height="52" />
+            <div class="s-line-1">
+              <img src="assets/line.svg" alt="line" width="350" />
+            </div>
 
-        <h3>Music</h3>
-        <img
-          src="assets/icon/musescore.svg"
-          alt="MuseScore"
-          width="52"
-          height="52"
-        />
-        <img src="assets/icon/piano.svg" alt="Piano" width="52" height="52" />
-        <img
-          src="assets/icon/microphone.svg"
-          alt="Sing"
-          width="52"
-          height="52"
-        />
+            <div class="s-icons-1">
+              <img
+                src="assets/icon/word.svg"
+                alt="Microsoft Word"
+                width="52"
+                height="52"
+              />
+              <img
+                src="assets/icon/powerpoint.svg"
+                alt="Microsoft PowerPoint"
+                width="52"
+                height="52"
+              />
+              <img
+                src="assets/icon/excel.svg"
+                alt="Microsoft Excel"
+                width="52"
+                height="52"
+              />
+            </div>
+          </div>
+        </section>
 
-        <h3>Languages</h3>
-        <img
-          src="assets/illustration/halo.svg"
-          alt="Indonesia"
-          width="52"
-          height="52"
-        />
-        <img
-          src="assets/illustration/hello.svg"
-          alt="English"
-          width="52"
-          height="52"
-        />
-        <img
-          src="assets/illustration/nihao.svg"
-          alt="Chinese"
-          width="52"
-          height="52"
-        />
-      </section>
+        <section class="animate__animated animate__slideInLeft">
+          <div class="skill">
+            <div class="s-icons-2">
+              <img
+                src="assets/icon/python.svg"
+                alt="Python"
+                width="52"
+                height="52"
+              />
+              <img
+                src="assets/icon/golang.svg"
+                alt="Golang"
+                width="52"
+                height="52"
+              />
+            </div>
 
-      <!-- Activities -->
-      <section>
-        <h1>Activities</h1>
-        <p>Coming Soon</p>
+            <div class="s-line-2">
+              <img src="assets/line.svg" alt="line" width="400" />
+            </div>
+
+            <div class="s-title-2">
+              <h1 class="h2-reg">Programming Languages</h1>
+            </div>
+          </div>
+        </section>
+
+        <section class="animate__animated animate__slideInRight">
+          <div class="skill">
+            <div class="s-title-3">
+              <h1 class="h2-reg">Music</h1>
+            </div>
+
+            <div class="s-line-3">
+              <img src="assets/line.svg" alt="line" width="470" />
+            </div>
+
+            <div class="s-icons-3">
+              <img
+                src="assets/icon/musescore.svg"
+                alt="MuseScore"
+                width="52"
+                height="52"
+              />
+              <img
+                src="assets/icon/piano.svg"
+                alt="Piano"
+                width="52"
+                height="52"
+              />
+              <img
+                src="assets/icon/microphone.svg"
+                alt="Sing"
+                width="52"
+                height="52"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section class="animate__animated animate__slideInLeft">
+          <div class="skill">
+            <div class="s-icons-4">
+              <img
+                src="assets/illustration/halo.svg"
+                alt="Indonesia"
+                width="52"
+                height="52"
+              />
+              <img
+                src="assets/illustration/hello.svg"
+                alt="English"
+                width="52"
+                height="52"
+              />
+            </div>
+
+            <div class="s-line-4">
+              <img src="assets/line.svg" alt="line" width="500" />
+            </div>
+
+            <div class="s-title-4">
+              <h1 class="h2-reg">Languages</h1>
+            </div>
+          </div>
+        </section>
       </section>
 
       <!-- Connect -->
-      <section>
-        <h1>Connect With Me</h1>
-        <p>
+      <section class="section4">
+        <h1 class="h1-reg" class="title-s4">Connect With Me</h1>
+
+        <p class="h5-reg">
           If you have any questions, feel free to contact me. I’ll try my best
           to get back to you!
         </p>
-        <a href="https://instagram.com/natalie_dream23/">
-          <img
-            src="assets/icon/instagram-logo.svg"
-            alt="Instagram"
-            width="52"
-            height="52"
-          />
-        </a>
-        <a href="https://facebook.com/divanatalie.krisantya/">
-          <img
-            src="assets/icon/facebook-logo.svg"
-            alt="Facebook"
-            width="52"
-            height="52"
-          />
-        </a>
-        <a href="https://linkedin.com/in/natalie-diva-krisantya/">
-          <img
-            src="assets/icon/linkedin-logo.svg"
-            alt="LinkedIn"
-            width="52"
-            height="52"
-          />
-        </a>
-        <a href="https://github.com/nataliedk/">
-          <img
-            src="assets/icon/github-logo.svg"
-            alt="GitHub"
-            width="52"
-            height="52"
-          />
-        </a>
+
+        <div class="contact-icons">
+          <a href="https://instagram.com/natalie_dream23/">
+            <img
+              src="assets/icon/instagram-logo.svg"
+              alt="Instagram"
+              width="52"
+              height="52"
+            />
+          </a>
+          <a href="https://facebook.com/divanatalie.krisantya/">
+            <img
+              src="assets/icon/facebook-logo.svg"
+              alt="Facebook"
+              width="52"
+              height="52"
+            />
+          </a>
+          <a href="https://linkedin.com/in/natalie-diva-krisantya/">
+            <img
+              src="assets/icon/linkedin-logo.svg"
+              alt="LinkedIn"
+              width="52"
+              height="52"
+            />
+          </a>
+          <a href="https://github.com/nataliedk/">
+            <img
+              src="assets/icon/github-logo.svg"
+              alt="GitHub"
+              width="52"
+              height="52"
+            />
+          </a>
+        </div>
       </section>
     </main>
 
     <!-- Footer, Credits, and Copyright -->
     <footer>
-      <p>
+      <p class="h5-reg">
         All content &copy; 2022 Natalie Diva and respective copyright holders.
       </p>
     </footer>
