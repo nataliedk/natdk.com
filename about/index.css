@@ -93,3 +93,7 @@ footer {
   padding-top: 150px;
   padding-right: -500px;
 }
+
+.coming-soon-img {
+  display: inline;
+}
