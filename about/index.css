@@ -80,14 +80,22 @@ footer {
 .coming-soon {
   display: flex;
   flex-direction: row;
-  margin: 150px 50px 23px 200px;
+  margin-top: 150px;
+  margin-left: 200px;
 }
 
 .coming-soon-text {
+  display: flex;
+  justify-content: flex-start;
   font-style: normal;
   font-weight: 350;
   font-size: 25px;
   line-height: 36px;
   letter-spacing: 0.04em;
   padding-top: 350px;
+}
+
+.coming-soon-img {
+  display: flex;
+  justify-content: flex-start;
 }
