@@ -79,6 +79,7 @@ footer {
 
 .coming-soon {
   display: flex;
+  flex-direction: row;
   margin: 150px 50px 23px 200px;
 }
 
