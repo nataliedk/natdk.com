@@ -1,5 +1,10 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "League Spartan", "Arial", sans-serif;
+  background-color: white;
 }
 
 footer {
@@ -161,6 +166,7 @@ footer {
 }
 
 .scroll-down {
+  text-decoration: none;
   padding-top: 710px;
   font-family: "Spartan";
   font-style: normal;
