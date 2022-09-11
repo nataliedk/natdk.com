@@ -79,8 +79,6 @@ footer {
 
 .coming-soon {
   display: flex;
-  flex-direction: row;
-  align-items: center;
   margin: 150px 50px 23px 200px;
 }
 
@@ -90,10 +88,5 @@ footer {
   font-size: 25px;
   line-height: 36px;
   letter-spacing: 0.04em;
-  padding-top: 150px;
-  padding-right: -500px;
-}
-
-.coming-soon-img {
-  display: inline;
+  padding-top: 350px;
 }
